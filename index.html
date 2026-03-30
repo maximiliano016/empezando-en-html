@@ -23,6 +23,9 @@
      rutas absolutas: Direccion completa url
      rutas relativas: direccion de un solo componente -->
 
+     <!-- img permite insetar imagenes dentro de mi documento html, esta etiqueta
+      tiene algunos parametros, y el mas importante es el parametro src (apunta el 
+      recurso que se va a visualizar. ES UNA ETIQUETA SIMPLE) -->
         </div>
 
 <div>
@@ -37,5 +40,162 @@
 
     </section>
 
+    <div>
+        <h2>Imagen HTML</h2>
+        <img src="img\Captura de pantalla 2024-01-09 182730.png" alt="gato sonrriente" width="50%"
+        height="25%">
+    </div>
+
+    <!-- la etiqueta table.
+     esta etiqueta permite generar o crear tablas estaticas conformadas por filas y columnas -->
+
+    <div>
+        <h2>Posiciones de la NBA</h2>
+        <h3>Conferencia ESTE de la NBA</h3>
+        <table border="1px">
+            <tr>
+                <th> Equipo</th> <!-- table head -->
+                <th> P. Ganados</th>
+                <th>P. Perdidos</th>
+                <th>Puntos Totales</th>
+            </tr> <!-- primera fila de mi tabla -->
+            
+            <tr>
+                <td>Pistons</td> <!-- table data -->
+                <td>54</td>
+                <td>20</td>
+                <td>.730</td>
+            </tr>
+            <!-- Colspan convina columnas de una fila -->
+             <!-- rowspan convinar filas de una columna  -->
+
+            <tr>
+                <td>Celtics</td>
+                <td>50</td>
+                <td>24</td>
+                <td>.676</td>
+            </tr>
+
+            <tr>
+                <td>Knicks</td>
+                <td>48</td>
+                <td>27</td>
+                <td>.640</td>
+            </tr>
+
+            <tr>
+                <td>Cavaliers</td>
+                <td>46</td>
+                <td>28</td>
+                <td>.622</td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+
+        <table border="1px">
+            <tr>
+                <th></th>
+                <th colspan="1" rowspan="2"></th>
+                <th colspan="2">Media</th>
+            </tr>
+
+            <tr>
+                <th></th>
+                <th>Altura</th>
+                <Th>Peso</Th>
+            </tr>
+
+            <tr>
+                <th rowspan="2"">Sexo</th>
+                <th>Hombres</th>
+                <td>1.9</td>
+                <td>85</td>
+            </tr>
+
+            <tr>
+                <th>Mujeres</th>
+                <th>1.7</th>
+                <th>60</th>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+
+        <table border="1px">
+            <tr>
+                <th colspan="4">DIFERENCIAS ENTRE EL PERRO Y EL HOMBRE</th>
+
+            </tr>
+
+            <tr>
+                <th rowspan="2">DIFERENCIAS</th>
+                <th colspan="2">PERRO</th>
+                <th rowspan="2">HOMBRE</th>
+            </tr>
+
+            <tr>
+                <th>PEQUEÑO</th>
+                <th>GRANDE</th>
+
+            </tr>
+
+            <tr>
+                <th>Duracion crecimiento</th>
+                <td>10 meses</td>
+                <td>18 a 24 meses</td>
+                <td>16 años</td>
+            </tr>
+
+            <tr>
+                <th>Tiempo de Gestacion</th>
+                <td colspan="2">58 a 63 dias</td>
+                <td>9 meses</td>
+            </tr>
+
+            <tr>
+                <th>Duracion de vida del pelo/Cabello</th>
+                <td colspan="2">1 año</td>
+                <td>2 a 7 años</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div>
+        <!-- etiqueta de listas permite listar items de forma ordenada o desordenada
+         ul (urder listpara desordenadas y ol (onder list para etiquetas desordenadas  -->
+
+         <h2>Compras del mercado</h2>
+            <ul>
+                <li>zanahorias
+                    <ol>
+                        <li>manzanas</li>
+                        <li>peras</li>
+                    </ol>
+                </li>
+                <li>leche</li>
+                <li>galletas</li>
+                <li>sandias</li>
+            </ul>
+
+    </div>
+
+    <!-- formularios la etiqueta form me permite agrupar distintas etiquetas 
+     como label, input, selection, radio button, button, entre otras  -->
+
+     <div>
+<br>
+<br>
+        <h2>formulario de datos</h2>
+
+        <form action="">
+            <label for="">Ingrese el nombre</label>
+            <input type="text" id="nombre" name="nombre">
+        
+        </form>
+     </div>
 </body>
 </html>
